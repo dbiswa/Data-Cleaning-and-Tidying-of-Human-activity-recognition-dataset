@@ -1,5 +1,6 @@
-#### This run analysis assumes that the following files activity_labels.txt, features.txt, subject_train.txt, X_train.txt and y_train.txt, subject_test.txt, X_test.txt and y_test.txt
-#### have been copied to a local directory called tidydata, and the working directory in R has been set to this directory, tidydata. For detailed description, see README.md.
+#### This run analysis assumes that the following files activity_labels.txt, features.txt, subject_train.txt, X_train.txt,
+#### y_train.txt, subject_test.txt, X_test.txt and y_test.txt have been copied to a local directory called tidydata, 
+#### and the working directory in R has been set to this directory, tidydata. For detailed description, see README.md.
 
 ### Step-1: Merges the training and the test sets to create one data set.
 
