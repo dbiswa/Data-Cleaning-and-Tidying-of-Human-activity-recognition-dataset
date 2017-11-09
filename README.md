@@ -61,4 +61,6 @@ This step requires cleaning of the variable names of the **subset_m** data frame
   This concludes the step-4, where the goal was to generate cleaner variable names. The resulted data frame, **tidy_data** has 10299 rows and 88 columns.
 #### Step-5: From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 To create another data set, where average of each variable for each activity and each subject is calculated, the variables subject and activity can be grouped, by using group_by() from dplyr package. on this grouped data, summarise_all() from dplyr can then be used to generate mean value of variable for each activity and each subject in the **tidy_data** data frame. %>% operator can be used to combine all operations (**tidy_data_2** <- tidy_data %>% group_by(subject, activity) %>% summarise_all(mean)). Finally, this tidy data frame **tidy_data_2** can be saved. To save in .txt file, use write.table() function. In this project, **tidy_data_2** was saved in a .csv file by using write.csv() function (write.csv(tidy_data_2,"tidy_data.csv",row.names=FALSE)). 
-This concludes all five steps taken to create a tidy data set from the original data set.
+
+## Conclusion
+This resulting tidy data set,tidy_data.csv, can now be used for further analysis.
