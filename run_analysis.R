@@ -1,3 +1,5 @@
+#### The instructions below assume that 
+
 ### Step-1: Merges the training and the test sets to create one data set.
 
 ## First read all data files using read.table() function: TRAIN, TEST, subject, and activity labels. 
