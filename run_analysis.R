@@ -92,4 +92,4 @@ tidy_data_2 <- tidy_data %>% group_by(subject, activity) %>% summarise_all(mean)
 # Note that this data frame, tidy_data_2, is in a wide form.
 
 # Finally, save the data in a.txt file format
-write.table(tidy_data_2,"tidy_data.txt", sep = ",", row.names=FALSE)
+write.table(tidy_data_2,"tidy_data.txt", row.names=FALSE)
